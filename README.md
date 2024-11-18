@@ -67,3 +67,7 @@ Learning Outcomes:
 1.Strengthened understanding of control flow (loops, conditionals).
 2.Learned how to manage user input and create a menu-driven interface.
 3.Developed an understanding of edge-case handling and basic arithmetic operations in Python.
+
+SAMPLE INPUT AND OUTPUT:
+![Screenshot (16)](https://github.com/user-attachments/assets/a8d43862-2a99-474b-b188-1abd93a3e0ce)
+
