@@ -1,0 +1,51 @@
+'''SIMPLE CALCULATOR
+INPUT FROM USER:
+*Num1
+*Num2
+
+OPERATION:
+*Addition
+*Subtraction
+*Multiplication
+*Division'''
+
+while True:
+    print("1.ADDITION")
+    print("2.SUBTRACTION")
+    print("3.MULTIPLICATION")
+    print("4.DIVISION")
+    print("5.EXIT")
+    c=int(input("Enter your choice:"))
+    
+    if(c==1):
+        Num1=int(input("Enter first number"))
+        Num2=int(input("Enter second number"))
+
+        print("The addition of two numbers are",Num1+Num2)
+    elif(c==2):
+        Num1=int(input("Enter first number"))
+        Num2=int(input("Enter second number"))
+
+        if(Num1>Num2):
+            print("The subtraction of two numbers are",Num1-Num2)
+        elif(Num2>Num1):
+            print("The subtraction of two numbers are",Num2-Num1)
+        elif(Num1==Num2):
+            print("Both inputs are same, so the difference is 0")
+    elif(c==3):
+        Num1=int(input("Enter first number"))
+        Num2=int(input("Enter second number"))
+
+        print("The multiplication of two numbers are ",Num1*Num2)
+    elif(c==4):
+        Num1=int(input("Enter first number"))
+        Num2=int(input("Enter second number"))
+
+        if (Num1==0 or Num2==0):
+            print("Check both the inputs are greater than zero")
+        print("The division of two numbers are",Num1//Num2)
+    elif(c==5):
+        print("---THANK YOU---")
+        break
+    else:
+        print("Check the entered choice")
